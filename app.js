@@ -26,27 +26,6 @@ function mostrarAmigosAgregados () {
 }
 console.log(nombreDelAmigo);
 
-
-/* Escribe una función que seleccione de manera aleatoria 
-uno de los nombres almacenados en el array amigos.
- Usa Math.random() y Math.floor() para obtener un índice aleatorio.
-
-Tareas específicas:
-
-Validar que haya amigos disponibles: 
-Antes de sortear, comprobar si el array amigos no está vacío.
-
-Generar un índice aleatorio: 
-Usar Math.random() y Math.floor() para seleccionar un índice aleatorio del arreglo.
-
-Obtener el nombre sorteado:
- Utilizar el índice aleatorio para acceder al nombre 
- correspondiente en el arreglo.
-
-Mostrar el resultado: 
-Actualizar el contenido del elemento de resultado utilizando 
-document.getElementById()  e innerHTML para mostrar el amigo sorteado.  */
-
 function amigoAleatorio() { 
     if (nombreDelAmigo.length === 0) {
         alert("Ingresa el nombre de un amigo");
